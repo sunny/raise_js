@@ -7,11 +7,11 @@ require "raise_js/version"
 Gem::Specification.new do |s|
   s.name        = "raise_js"
   s.version     = RaiseJs::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RaiseJs."
-  s.description = "TODO: Description of RaiseJs."
+  s.authors     = ["Sunny Ripert"]
+  s.email       = ["sunny@sunfox.org"]
+  s.homepage    = "http://github.com/sunny/raise_js"
+  s.summary     = "Raise JavaScript errors as Ruby exceptions in your Rails app."
+  s.description = "Raise JavaScript errors as Ruby exceptions in your Rails app. Usefull when you have a good Exception catcher."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
