@@ -7,7 +7,7 @@ Raise JavaScript errors as Ruby exceptions in your Rails app.
 Add this line to your `Gemfile`:
 
 ```rb
-gem "raise_js", github: "sunny/raise_js"
+gem "raise_js"
 ```
 
 And add `raise_js` to your `Gemfile` along with `jquery` and `jquery_ujs`:
