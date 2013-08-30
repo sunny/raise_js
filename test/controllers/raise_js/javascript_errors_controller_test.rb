@@ -2,6 +2,11 @@ require 'test_helper'
 
 class RaiseJs::JavascriptErrorsControllerTest < ActionController::TestCase
 
+  test "routes" do
+    assert_routing({ method: "post", path: "javascript-errors" },
+                   { controller: "raise_js/javascript_errors", action: "create" })
+  end
+
   test "create raises a JavscriptException" do
     assert_raises RaiseJs::JavascriptError do
       begin
