@@ -4,9 +4,10 @@ Raise JavaScript errors as Ruby exceptions in your Rails app.
 
 ## Install
 
-Add this line to your `Gemfile`:
+Add these lines to your `Gemfile`:
 
 ```rb
+# Raise JavaScript errors as Ruby exceptions
 gem "raise_js"
 ```
 
